@@ -5,7 +5,7 @@
   <remote fetch="git://github.com/gumstix" name="gumstix"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://github.com/alex-wells" name="meta-minialert" />
+  <remote fetch="git://github.com/alex-wells" name="bb" />
 
   <default remote="gumstix" revision="default"/>
   <!-- List all the repositories you want to fetch -->
