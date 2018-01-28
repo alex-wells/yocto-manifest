@@ -14,7 +14,7 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
-  <project name="meta-minialert" path="poky/meta-minialert" remote="minialert" upstream="refs/heads/master"/>
+  <project name="meta-minialert" path="poky/meta-minialert" revision="refs/heads/master" remote="minialert" upstream="refs/heads/master"/>
   <project name="meta-gumstix" path="poky/meta-gumstix" revision="refs/heads/fido" upstream="refs/heads/fido"/>
   <project name="meta-gumstix-extras" path="poky/meta-gumstix-extras" revision="refs/heads/fido" upstream="refs/heads/fido"/>
   <project name="meta-java" path="poky/meta-java" remote="yocto" revision="refs/heads/krogoth" upstream="refs/heads/master"/>
