@@ -13,13 +13,13 @@
        "remote": the remote host from above (if not the default)
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
-  <project name="meta-gumstix" path="poky/meta-gumstix" revision="7a926aaafccfc6d9f752ff507ecd112bcede0c44" upstream="refs/heads/fido"/>
-  <project name="meta-gumstix-extras" path="poky/meta-gumstix-extras" revision="330e43d3fb2bbdc0c7ef1bd476a8aff6406f9130" upstream="refs/heads/fido"/>
-  <project name="meta-java" path="poky/meta-java" remote="yocto" revision="66c97ae7461f4c1a13917131787bb76dc34e6b6f" upstream="refs/heads/master"/>
-  <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="10d3c8f85280a0bf867a8e4f84bcda81c290d28e" upstream="refs/heads/fido"/>
-  <project name="meta-ros" path="poky/meta-ros" remote="bmwcarit" revision="d465a23c0a96e651419d46b29ab7c0c3663da314" upstream="refs/heads/master"/>
-  <project name="meta-ti" path="poky/meta-ti" remote="yocto" revision="03cb3ff15f3b8535ca409ce682f44ec1b81da0c3" upstream="refs/heads/fido"/>
-  <project name="meta-minialert" path="poky/meta-minialert" remote="minialert" revision="8512c463a3cd0a7d70bd370ac28c6da401e8f66b" upstream="refs/heads/master"/>
-  <project name="poky" remote="yocto" revision="83aa565d93aacae484976562ef1ae8dbbb6b2bc0" upstream="refs/heads/fido"/>
+  <project name="meta-gumstix" path="poky/meta-gumstix" upstream="refs/heads/fido"/>
+  <project name="meta-gumstix-extras" path="poky/meta-gumstix-extras" upstream="refs/heads/fido"/>
+  <project name="meta-java" path="poky/meta-java" remote="yocto" upstream="refs/heads/master"/>
+  <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" upstream="refs/heads/fido"/>
+  <project name="meta-ros" path="poky/meta-ros" remote="bmwcarit" upstream="refs/heads/master"/>
+  <project name="meta-ti" path="poky/meta-ti" remote="yocto" upstream="refs/heads/fido"/>
+  <project name="meta-minialert" path="poky/meta-minialert" remote="minialert" upstream="refs/heads/master"/>
+  <project name="poky" remote="yocto" upstream="refs/heads/fido"/>
 </manifest>
 
