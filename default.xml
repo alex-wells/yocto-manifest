@@ -14,7 +14,7 @@
   <remote name="toradex" fetch="http://git.toradex.com" />
   <remote name="freescale" fetch="git://github.com/Freescale" />
   <remote name="ndechesne" fetch="git://github.com/ndechesne" />
-  <remote name="minialert" fetch="git://github.com/alex-wells" />
+  <remote name="minialert" fetch="ssh://git@github.com/alex-wells" />
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
        "remote": the remote host from above (if not the default)
