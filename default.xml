@@ -21,7 +21,7 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
-  <project name="meta-minialert" path="poky/meta-minialert" revision="refs/heads/master" remote="minialert" upstream="refs/heads/master"/>
+  <project name="meta-minialert" path="poky/meta-minialert" revision="refs/heads/rocko" remote="minialert" upstream="refs/heads/rocko"/>
 
   <project name="meta-browser" remote="OSS" revision="refs/heads/master" path="poky/meta-browser"/>
 
