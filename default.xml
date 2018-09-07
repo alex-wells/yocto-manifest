@@ -15,6 +15,7 @@
   <remote name="freescale" fetch="git://github.com/Freescale" />
   <remote name="ndechesne" fetch="git://github.com/ndechesne" />
   <remote name="minialert" fetch="ssh://git@github.com/alex-wells" />
+  <remote name="mender" fetch="git://github.com/mendersoftware" />
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
        "remote": the remote host from above (if not the default)
@@ -23,6 +24,8 @@
 
   <project name="meta-minialert" path="poky/meta-minialert" revision="refs/heads/rocko" remote="minialert" upstream="refs/heads/rocko"/>
 
+  <project name="meta-mender" remote="mender" revision="refs/heads/rocko-v2018.07" path="poky/meta-mender" />
+  
   <project name="meta-browser" remote="OSS" revision="refs/heads/master" path="poky/meta-browser"/>
 
   <project name="poky" revision="refs/heads/rocko" remote="yocto" />
