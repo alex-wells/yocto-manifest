@@ -24,7 +24,7 @@
 
   <project name="meta-minialert" path="poky/meta-minialert" revision="refs/heads/rocko" remote="minialert" upstream="refs/heads/rocko"/>
 
-  <project name="meta-mender" remote="mender" revision="refs/tags/rocko-v2018.07" path="poky/meta-mender" />
+  <project name="meta-mender" remote="mender" revision="refs/heads/rocko" path="poky/meta-mender" />
   
   <project name="meta-browser" remote="OSS" revision="refs/heads/master" path="poky/meta-browser"/>
 
