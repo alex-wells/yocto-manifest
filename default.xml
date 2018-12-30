@@ -21,7 +21,8 @@
        "remote": the remote host from above (if not the default)
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
-
+  <project name="meta-cloud-services" path="poky/meta-cloud-services" revision="refs/heads/rocko" remote="yocto" />
+           
   <project name="meta-minialert" path="poky/meta-minialert" revision="refs/heads/rocko" remote="minialert" upstream="refs/heads/rocko"/>
 
   <project name="meta-mender" remote="mender" revision="refs/heads/rocko" path="poky/meta-mender" />
